@@ -57,7 +57,6 @@ const displayMealsDetails = meal => {
     const mealDetails = document.getElementById('mealDetailsBody');
     mealDetails.innerHTML = `
         <img class="img-fluid" src="${meal. strMealThumb}">
-
     `;
 }
 
